@@ -4,6 +4,6 @@ const main = new Main();
 
 describe('Email Validator', () => {
     it("reponse attendue : true", function() {
-        expect(main.validateEmail("trea@faoiu.be")).toBe(true);
+        expect(main.emailValidator("trea@faoiu.be")).toBe(true);
 });
 });
