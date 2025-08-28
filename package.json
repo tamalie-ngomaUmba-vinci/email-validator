@@ -5,8 +5,8 @@
     "main": "src/main.js",
     "type": "module",
     "scripts": {
-        // ajout de "start": "node src/main.js" si besoin
-        // ajout de "build"
+        "start": "sirv ./src public --cors --single --no-clear --port 8000",
+        "build": "esbuild src/main.js --bundle --minify --sourcemap --outfile=public/build/bundle.js --loader:.js=jsx",
         "test": "jasmine"
     },
     "dependencies": {
