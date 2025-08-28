@@ -1,0 +1,15 @@
+{
+    "name": "email-validator",
+    "version": "1.0.0",
+    "description": "A simple email validator project",
+    "main": "src/main.js",
+    "type": "module",
+    "scripts": {
+        // ajout de "start": "node src/main.js" si besoin
+        // ajout de "build"
+        "test": "jasmine"
+    },
+    "dependencies": {
+        "jasmine": "^4.5.0"
+    }
+}
