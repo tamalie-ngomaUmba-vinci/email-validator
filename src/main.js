@@ -6,6 +6,11 @@ export class Main {
         if(email.length === 0 || email === null){ {
             return false;
         }
+
+        //2. contient des caractères
+        if(!email.includes(String)) {
+            return false;
+        }
         //2. contient @
         //3. contient . apres @
         //4. pas d'espaces
