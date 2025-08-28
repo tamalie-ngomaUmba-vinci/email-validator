@@ -1,6 +1,18 @@
 export class Main {
 
     emailValidator(email) {
-        return email.includes('@');
+        
+        emailValide = false;
+
+        pasVide(email);{
+            emailValide = emailValide && (email !== null && email !== undefined && email.length > 0);
+        }
+       /* aUnarobase(email){
+            emailValide = e && email.includes('@');
+        } */
+
+        
+        
+
     }
 }
